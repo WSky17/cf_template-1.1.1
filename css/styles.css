@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url("../img/Honolulu pic.jpeg");
+  background-size: contain;
+  background-size: cover;
+  /* background-position: bottom; */
+}
+
+.jumbotron p {
+    color: white;
+}

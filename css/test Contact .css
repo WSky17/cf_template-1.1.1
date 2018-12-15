@@ -1,0 +1,119 @@
+* { box-sizing: border-box; }
+
+/*Navigation*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  background-color: #413c46;
+  padding: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  color: #8962b3;
+  text-decoration: none;
+  transition: color 600ms ease;
+  -webkit-transition: 600ms ease;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+}
+
+/* end navigation*/
+
+.container-contact {
+  background-image: url("../img/contact2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-contact-content {
+  padding-top: 50px;
+}
+
+.header-contact {
+  width: 36%;
+  position: relative;
+  left: 36%;
+  right: 36%;
+  padding: 20px;
+}
+
+.contact-intro {
+  width: 36%;
+  position: relative;
+  left: 36%;
+  right: 36%;
+  padding-bottom: 10px;
+}
+
+.contact-email {
+  width: 36%;
+  position: relative;
+  left: 36%;
+  right: 36%;
+}
+
+.contact-adress {
+  width: 36%;
+  position: relative;
+  left: 36%;
+  right: 36%;
+  padding-bottom: 20px;
+}
+
+/*Typography Contact*/
+
+/*font-family: 'Sanchez', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.header-contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-intro h2 {
+  text-align: center;
+  font-weight: lighter;
+ }
+
+.contact-email h3 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #8962b3;
+}
+
+.contact-adress h2 {
+  text-align: center;
+  font-weight: lighter;
