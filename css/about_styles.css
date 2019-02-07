@@ -1,14 +1,13 @@
 * {box-sizing: border-box;}
 .container {
-  /* margin: 2% auto; */
-  width: 70%;
-  padding: 0px 10px 10px 10px;
+  max-width: 100%;
   z-index: 5;
 }
 
 .header h1 {
   text-transform: uppercase;
   padding-top: 30px;
+  margin-top: 5%;
 }
 
 
@@ -106,7 +105,9 @@ body {
   .left {float: left;
   }
   .right {float: right;
+  
   }
+
 
   nav {
   position: fixed;
@@ -124,6 +125,7 @@ body {
 a {text-decoration: none;
    color: white;
    text-transform: uppercase;
+   padding-right: 15px
 
    }
 
@@ -131,7 +133,5 @@ a {text-decoration: none;
   color: #ff0;
   text-decoration: none;
 
-}
-nav .right a { margin-right: .7vw; }
 
-.content {padding-top: 15px}
+}
