@@ -8,3 +8,6 @@
 .jumbotron p {
     color: white;
 }
+a{ display: inline;
+   padding-right: 15px
+   }
