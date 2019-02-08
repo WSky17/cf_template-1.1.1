@@ -1,26 +1,17 @@
-.jumbotron {
-  background-image: url("../img/Honolulu pic.jpeg");
-  background-size: contain;
-  background-size: cover;
-  /* background-position: bottom; */
-}
 
-.jumbotron p {
-    color: white;
-}
-a{ display: inline;
-   padding-right: 15px
-   }
 
 
     /*** Contact Page ***/
     /* box styling */
-
+/* Navigation bar styling */
     nav {
     position: fixed;
     max-width: 100% !important;
     top: 0;
     left: 0;
+    z-index: 2;
+
+
 
     box-shadow: 0 6px 14px 0 rgba(0,0,0,0.35);
      background: linear-gradient(to right, #141e30, #243b55);
@@ -34,7 +25,7 @@ a{ display: inline;
     /* end box stylying */
 
 
-    /* Navigation bar styling */
+
     .left {float: left;
     }
     .right {float: right;
@@ -44,7 +35,7 @@ a{ display: inline;
     a {text-decoration: none;
      color: white;
      text-transform: uppercase;
-
+     padding-right: 15px
      }
 
     nav a:hover {
@@ -53,8 +44,11 @@ a{ display: inline;
 
     }
 
+/* end navigation bar styling */
 
 
+
+/* .container {margin-top: 15px;} */
 
     /* contact info */
     .contact { margin: 50px 30% 0 30%;
